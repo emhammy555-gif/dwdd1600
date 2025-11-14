@@ -1,0 +1,142 @@
+body {
+    font-family: "Public Sans", sans-serif;
+    margin: 0;
+    background-color: #f4f3f2;
+}
+/* header stuff*/ 
+header {
+    background-color: #ffcfd9;
+    padding: 1rem 10px
+}
+header span {
+    color: #2b262d;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+/* Navigation*/
+nav {
+    background-color: #85a653;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem .83rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #f4f3f2;
+    font-weight: 300;
+}
+nav li.active a {
+   color: #ffcfd9;
+}
+nav li a:hover {
+    color: #ffcfd9;
+}
+/* main*/
+main {
+    padding: 1rem 10px;
+}
+main h1 {
+    color: #bf2a52
+}
+main h2 {
+    color: #85a653;
+    margin-top: 1.2rem;
+    margin-bottom: .5rem;
+}
+main p {
+    margin: 0;
+    color: #2b262d;
+}
+main ol {
+    padding: .5rem 30px;
+    background-color: #efefef;
+}
+main dl dt {
+color: #bf2a52;
+font-weight: 700;
+margin-top: .5rem;
+}
+main dl dd {
+color: #435b1e;
+font-size: .9rem;
+margin-left: 20px;
+margin-top: .1rem;
+}
+main ul {
+    list-style-type: square;
+    border: 2px solid #85a653;
+    border-radius: 10px;
+    background-color: #d3edad;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    font-size: .9rem;
+}
+main strong {
+    font-weight: 700;
+    color: #2b262d;
+}
+main em {
+    font-weight: 300;
+}
+main a {
+    color: #85a653;
+}
+main a:hover {
+    color: #bf2a52;
+}
+
+figure.wrapped {
+    margin: 50px 10px 10px 10px;
+    width: 30%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {  
+text-align: center;
+font-size: .75rem;
+}
+
+/* gallery */
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+div.gallery figure {
+    margin: 0;
+}
+div.gallery figcaption{
+    text-align: center;
+    font-size: .8rem;
+    color: #435b1e;
+}
+
+/*footer*/
+footer {
+    background-color: #ffcfd9;
+    text-align: center;
+    padding: 1rem 0;
+    clear: both;
+}
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #2b262d;
+    letter-spacing: 2px;
+}
