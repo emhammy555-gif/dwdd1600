@@ -2,23 +2,25 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Emily Hamilton">
-  <meta name="description" content="The current life and work of Emily Hamilton">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="emily.css">
-  <title>Commissions</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Emily Hamilton">
+    <meta name="description" content="The current life and work of Emily Hamilton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="emily.css">
+    <title>Commissions</title>
 </head>
+
 <body>
-    <!-- start the page header -->
+
     <header>
         <span>Commissions</span>
     </header>
-    
-    <!-- start the page navigation -->
+
     <nav>
         <ul>
             <li><a href="index.html"><em>About Emily</em></a></li>
@@ -27,47 +29,52 @@
             <li class="active"><a href="commissions.html"><em>Commissions</em></a></li>
         </ul>
     </nav>
-    
-    <!-- start the page main -->
+
     <main>
         <h1>Commission Emily for a Pet Portrait</h1>
 
-<form method="get" class="myForm" action="thanks.html">
+        <form method="get" class="myForm" action="thanks.html">
 
-<fieldset>
-    <Legend>General Information</Legend>
-<label>Your Name*<input type="text" name="fname" required></label>
-<label>Pet's Name*<input type="text" name="lname" required></label>
-<label>Cell Number*<input type="tel" name="phone" required placeholder="111-111-1111"></label>
-</fieldset>
+            <fieldset>
+                <legend>General Information</legend>
+                <label>Your Name* <input type="text" name="fname" required></label>
+                <label>Pet's Name* <input type="text" name="lname" required></label>
+                <label>Cell Number* <input type="tel" name="phone" required placeholder="111-111-1111"></label>
+            </fieldset>
 
-<fieldset>
-    <legend>Size</legend>
-    <label><input type="radio" name="method" value="small">Small (2x3)</label>
-    <label><input type="radio" name="method" value="medium">Medium (5x7)</label>
-    <label><input type="radio" name="method" value="large">Large (8x10)</label>
-</fieldset>
+            <fieldset>
+                <legend>Size</legend>
+                <label><input type="radio" name="method" value="small"> Small (2x3)</label>
+                <label><input type="radio" name="method" value="medium"> Medium (5x7)</label>
+                <label><input type="radio" name="method" value="large"> Large (8x10)</label>
+            </fieldset>
 
-<fieldset>
-    <legend>Additional Information</legend>
-    <label><input type="checkbox" name="porch" value="chosen"> Pet's Name Written</label>
-    <label><input type="checkbox" name="deck" value="chosen"> Two Pets</label>
-    <label><input type="checkbox" name="driveway" value="chosen"> Background Color</label>
-    <label><input type="checkbox" name="garage" value="chosen"> Other (explain in comments)</label>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label><input type="checkbox" name="porch" value="chosen"> Pet's Name Written</label>
+                <label><input type="checkbox" name="deck" value="chosen"> Two Pets</label>
+                <label><input type="checkbox" name="driveway" value="chosen"> Background Color</label>
+                <label><input type="checkbox" name="garage" value="chosen"> Other (explain in comments)</label>
 
-    <label>
-    <select name="time">
-        <option value="none">Delivery Date</option>
-        <option value="1">Jan. 1</option>
-        <option value="2">Jan. 2</option>
-        <option value="3">Jan. 3</option>
-        <option value="4">Jan. 4</option></label>
-    </select>
-</fieldset>
+                <label>
+                    <select name="time">
+                        <option value="none">Delivery Date</option>
+                        <option value="1">Jan. 1</option>
+                        <option value="2">Jan. 2</option>
+                        <option value="3">Jan. 3</option>
+                        <option value="4">Jan. 4</option>
+                    </select>
+                </label>
+            </fieldset>
 
-<label>Comments
-    <textarea name="Comments"></textarea>
-</label>
+            <label>Comments
+                <textarea name="Comments"></textarea>
+            </label>
 
+            <input type="submit" value="Send Delivery Request">
 
-<input type="submit" value="Send Delivery Request">
+        </form>
+    </main>
+
+</body>
+</html>
