@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Emily Hamilton">
+    <meta name="description" content="The current life and work of Emily Hamilton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="emily.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Commissions</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo_black.png" alt="Logo for Embosmem" width="40" height="50">
+        <span>Commissions</span>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html"><em>About Emily</em></a></li>
+            <li><a href="achievements.html"><em>Achievements</em></a></li>
+            <li><a href="portfolio.html"><em>Portfolio</em></a></li>
+            <li class="active"><a href="commissions.html"><em>Commissions</em></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Commission Emily for a Pet Portrait</h1>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>General Information</legend>
+                <label>Your Name* <input type="text" name="fname" required></label>
+                <label>Pet's Name* <input type="text" name="lname" required></label>
+                <label>Cell Number* <input type="tel" name="phone" required placeholder="111-111-1111"></label>
+                <label>Email Address* <input type="email" name="email" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Size</legend>
+                <label><input type="radio" name="method" value="small"> Small (2x3)</label>
+                <label><input type="radio" name="method" value="medium"> Medium (5x7)</label>
+                <label><input type="radio" name="method" value="large"> Large (8x10)</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label><input type="checkbox" name="porch" value="chosen"> Pet's Name Written</label>
+                <label><input type="checkbox" name="deck" value="chosen"> Two Pets</label>
+                <label><input type="checkbox" name="driveway" value="chosen"> Background Color</label>
+                <label><input type="checkbox" name="garage" value="chosen"> Other (explain in comments)</label>
+
+                <label>
+                    <select name="time">
+                        <option value="none">Delivery Date</option>
+                        <option value="1">Jan. 1</option>
+                        <option value="2">Jan. 2</option>
+                        <option value="3">Jan. 3</option>
+                        <option value="4">Jan. 4</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <label>Comments
+                <textarea name="Comments"></textarea>
+            </label>
+
+            <input type="submit" value="Send Delivery Request">
+
+        </form>
+    </main>
+
+</body>
+</html>
